@@ -1,0 +1,42 @@
+name: tiktok_ui
+description: A TikTok UI clone using Flutter
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/video1.mp4
+    - assets/video2.mp4
+    - assets/selatbali.mp4
+    - assets/taribarong.mp4
+    - assets/profile.jpeg
+    - assets/comment_profile1.jpeg
+    - assets/comment_profile2.jpeg
+    - assets/kaosbumiayu1.jpeg
+    - assets/kaosbumiayu2.jpeg
+    - assets/kaossirampog1.jpeg
+    - assets/teamwork.png
+    - assets/kubus.png
+    - assets/lonceng.jpg
+    - assets/tiktok_logo.jpg
+    - assets/post1 (1).png
+    - assets/post1 (2).png
+    - assets/post1 (3).png
+    - assets/post1 (4).png
